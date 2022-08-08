@@ -30,9 +30,12 @@ const RightNavbarContent = () => {
           ))}
         </ul>
       </div>
-      <a className="link " href="">
+      <a
+        className="link "
+        href="https://github.com/Ali-Hussein-dev/website-starter"
+      >
         <span className="sr-only">Github repo</span>
-        <ImGithub size="35" />
+        <ImGithub size="30" />
       </a>
     </div>
   );
@@ -74,7 +77,7 @@ export const Navbar = () => {
       <Disclosure
         as="nav"
         ref={() => ref}
-        className={`sticky top-0 md:px-2 z-10 ${
+        className={`sticky top-0 px-2 z-10 ${
           y > height ? "bg-slate-900/20 backdrop-blur-lg" : ""
         }`}
       >
@@ -104,12 +107,12 @@ export const Navbar = () => {
                 </div>
                 {/* //----------------------------------------------------------------------mobile */}
                 <div
-                  className={`flex -mr-2 sm:hidden ${
-                    y > height ? "bg-slate-900/40 backdrop-blur-lg" : ""
+                  className={`flex sm:hidden ${
+                    y > height ? "backdrop-blur-lg" : ""
                   }`}
                 >
                   {/* Mobile menu button */}
-                  <Disclosure.Button className="btn inline-flex items-center justify-center p-2 bg-transparent border-none btn-circle">
+                  <Disclosure.Button className="btn inline-flex items-center justify-center border-none bg-inherit btn-circle">
                     <span className="sr-only">Open main menu</span>
                     {isOpen ? (
                       <AiOutlineClose

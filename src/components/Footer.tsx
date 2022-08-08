@@ -77,7 +77,7 @@ export const Footer = () => {
   return (
     <div className="">
       <div className="container mx-auto border-t text-base-content border-slate-500 ">
-        <footer className="grid px-4 py-8 grid-cols-2 md:grid-cols-3 lg:px-2 footer">
+        <footer className="grid px-2 py-8 grid-cols-2 md:grid-cols-3 lg:px-2 footer">
           <div>
             <span className="footer-title">Services</span>
             {links.services.map((link) => (
@@ -115,7 +115,7 @@ export const Footer = () => {
             ))}
           </div>
         </footer>
-        <footer className="pt-5 pb-10 border-t border-base-300 footer row-between lg:px-2">
+        <footer className="px-2 pt-5 pb-10 border-t border-base-300 footer row-between">
           <div className="items-center grid-flow-col">
             <p className="font-bold">Your Company Ltd.</p>
           </div>
