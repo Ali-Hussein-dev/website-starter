@@ -6,66 +6,66 @@ const links = {
     {
       name: "instagram",
       icon: BsInstagram,
-      href: "www.instagram.com",
+      href: "https://www.instagram.com",
     },
     {
       name: "facebook",
       icon: BsFacebook,
-      href: "www.facebook.com",
+      href: "https://www.facebook.com",
     },
     {
       name: "youtube",
       icon: BsYoutube,
-      href: "www.youtube.com",
+      href: "https://www.youtube.com",
     },
   ],
   legal: [
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "Privacy Policy",
     },
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "Terms of Use",
     },
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "Cookie Policy",
     },
   ],
   company: [
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "About us",
     },
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "Contact",
     },
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "Jobs",
     },
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "Press kit",
     },
   ],
   services: [
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "Branding",
     },
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "Design",
     },
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "Marketing",
     },
     {
-      href: "www.google.com",
+      href: "https://www.google.com",
       label: "Advertisement",
     },
   ],
