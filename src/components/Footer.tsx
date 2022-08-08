@@ -115,7 +115,7 @@ export const Footer = () => {
             ))}
           </div>
         </footer>
-        <footer className="p-4 border-t border-base-300 footer row-between lg:px-2">
+        <footer className="pt-5 pb-10 border-t border-base-300 footer row-between lg:px-2">
           <div className="items-center grid-flow-col">
             <p className="font-bold">Your Company Ltd.</p>
           </div>
