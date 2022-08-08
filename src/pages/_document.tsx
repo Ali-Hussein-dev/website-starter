@@ -12,6 +12,18 @@ export default function Document() {
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
           name="robots"
         />
+        <link
+          href="/favicons/favicon-32x32.png"
+          rel="icon"
+          sizes="32x32"
+          type="image/png"
+        />
+        <link
+          href="/favicons/favicon-16x16.png"
+          rel="icon"
+          sizes="16x16"
+          type="image/png"
+        />
       </Head>
       <body className="scroll-smooth">
         <Main />
