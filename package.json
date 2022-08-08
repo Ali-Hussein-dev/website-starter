@@ -1,5 +1,5 @@
 {
-  "name": "site-layout",
+  "name": "website-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@mantine/hooks": "^5.0.3",
+    "daisyui": "^2.22.0",
     "next": "12.2.4",
+    "nextjs-progressbar": "^0.0.14",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "18.6.4",
     "@types/react": "18.0.16",
     "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.8",
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.4",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.8",
     "typescript": "4.7.4"
   }
 }
