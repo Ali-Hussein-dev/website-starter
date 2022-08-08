@@ -1,6 +1,6 @@
 import * as React from "react";
 import { BsInstagram, BsYoutube, BsFacebook } from "react-icons/bs";
-
+import Link from "next/link";
 const links = {
   social: [
     {
@@ -72,37 +72,50 @@ const links = {
 };
 //======================================
 export const Footer = () => {
+  const dummyPage = "/dummy";
   //======================================return
   return (
     <div className="">
       <div className="container mx-auto border-t text-base-content border-slate-500 ">
-        <footer className="p-10 footer ">
+        <footer className="grid px-4 py-8 grid-cols-2 md:grid-cols-3 lg:px-2 footer">
           <div>
             <span className="footer-title">Services</span>
             {links.services.map((link) => (
-              <a key={link.label} href={link.href} className="link link-hover">
+              <Link
+                key={link.label}
+                href={dummyPage || link.href}
+                className="link link-hover"
+              >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
           <div>
             <span className="footer-title">Company</span>
             {links.company.map((link) => (
-              <a key={link.label} href={link.href} className="link link-hover">
+              <Link
+                key={link.label}
+                href={dummyPage || link.href}
+                className="link link-hover"
+              >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
           <div>
             <span className="footer-title">Legal</span>
             {links.legal.map((link) => (
-              <a key={link.label} href={link.href} className="link link-hover">
+              <Link
+                key={link.label}
+                href={dummyPage || link.href}
+                className="link link-hover"
+              >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
         </footer>
-        <footer className="px-10 py-4 border-t footer border-base-300">
+        <footer className="p-4 border-t border-base-300 footer row-between lg:px-2">
           <div className="items-center grid-flow-col">
             <p className="font-bold">Your Company Ltd.</p>
           </div>
