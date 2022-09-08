@@ -29,20 +29,21 @@ const Home: NextPage = () => {
     <Layout title="Website Starter">
       <Section id="#section1">
         <div className="grid w-full h-full place-items-center">
-          <div className="space-y-1 text-center rounded-full text-slate-200 z-[1] bg-base-100/30 backdrop-blur p-28 w-full md:w-auto">
-            <h1 className="text-2xl font-extrabold leading-snug md:text-3xl">
-              Website Starter With
+          <div className="space-y-1 text-center rounded-xl text-slate-200  p-2 z-[1] bg-base-100 w-full md:w-auto lg:mb-20">
+            <h1 className="text-2xl font-extrabold leading-relaxed md:text-3xl lg:text-6xl ">
+              Website Starter
+              <br />
+              With
               <br />
               Nextjs & TailwindCSS
             </h1>
-            <h2 className="text-xl">SECTION 1</h2>
           </div>
           <ImageBg />
         </div>
       </Section>
       <Section id="#section2">
         <div className="px-2">
-          <h2 className="mb-2 text-5xl">Features</h2>
+          <h2 className="mb-4 text-5xl font-bold">Features</h2>
           <ul className="space-y-1 text-lg">
             {[
               "Responsive Layout",
@@ -51,7 +52,7 @@ const Home: NextPage = () => {
               "Custom scrollbar",
               "Common components: Navbar, footer & content",
             ].map((li) => (
-              <li key={li} className="row-start gap-x-2">
+              <li key={li} className="row-start gap-x-3">
                 <ImCheckboxChecked />
                 <span>{li}</span>
               </li>
